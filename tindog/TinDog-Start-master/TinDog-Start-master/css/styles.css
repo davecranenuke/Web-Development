@@ -1,0 +1,182 @@
+body {
+  font-family: Montserrat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* title section */
+
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* title image */
+
+.mobile-img {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* title download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features section */
+
+.feature-heading {
+  font-size: 1.5rem;
+}
+
+#features {
+  padding: 10% 15%;
+  position: relative;
+}
+
+.feature-list {
+  text-align: center;
+}
+
+.icon-sizer {
+  font-size: 3rem;
+  color: red;
+}
+
+.icon-sizer:hover {
+  color: #ff4c68
+}
+
+/* testimonial section */
+
+#testimonials {
+  /* padding: 7% 15%; */
+  /* moved to carousel-item class to prevent prev/next buttons from being moved in by padding*/
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size = 3rem;
+  line-height = 1.5;
+}
+
+.carousel-item {
+  /* padding: 7% 15%; covered by class="container-fluid" */
+}
+
+/* press section */
+
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px, 20px, 50px;
+}
+
+/* priceing section */
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta section */
+
+#cta {
+    text-align: center;
+    /* padding: 7% 15%; covered by class="container-fluid" */
+}
+
+/* footer section */
+
+#footer {
+  text-align: center;
+  /* padding: 7% 15%; covered by class="container-fluid" */
+}
+
+@media (max-width: 1400px) {
+  .mobile-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
